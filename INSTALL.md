@@ -1,15 +1,9 @@
 # Pre-workshop installation
 
-> **Get this done at home, on good Wi-Fi.** The Dependency Track stack pulls several GB of images and a vulnerability database on first start, you don't want to do this in the conference room.
-
-The steps are easy, but they add up.
-
 ## Assumed already installed
 
-- **Docker** + **`docker compose` v2**: confirm with `docker --version` and `docker compose version`
+- **Docker** + **`docker compose / docker-compose` v2**: confirm with `docker --version` and `docker compose version`
 - **curl**: for downloads and the API lab
-
-`docker compose` (with a space) is v2; the old `docker-compose` (with a hyphen) won't work. If either is missing, get Docker Desktop (<https://www.docker.com/products/docker-desktop/>) or follow your distro's install (<https://docs.docker.com/engine/install/>).
 
 ## What you'll install
 
